@@ -1,17 +1,13 @@
 import random
 
+"""
+Author: Ian Van Meter | Date: 4-29-2021
+"""
+
 x = "2 + 2 ="
 
-y = ("3", "5", "88", "nothing", "16", "mafia", "the legend of zelda: breath of the wild")
+y = ("3", "5", "88", "nothing", "16", "mafia", "life", "death", "king", "25", "A good way to start the morning")
 
 i = random.choice(y)
 
 print(x, i)
-
-""" this way works too but it takes too many lines
-w = len(y)
-
-z = random.randint(0 - 1, w - 1)
-
-i = y[z]
-"""
